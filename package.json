@@ -1,0 +1,19 @@
+{
+  "name": "mt5",
+  "version": "1.0.0",
+  "description": "Telegram bot for article review, payment confirmation, and certificate delivery",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "node src/bot.js",
+    "start": "node src/bot.js",
+    "check": "node --check src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
+  }
+}
